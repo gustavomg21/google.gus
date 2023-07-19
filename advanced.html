@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google Advanced Search</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Google Advanced Search</a>
+  </nav>
+
+  <div class="container mt-5">
+    <form action="https://www.google.com/search" method="GET">
+      <div class="form-group">
+        <label for="all-words">Find pages with...</label>
+        <input type="text" class="form-control" id="all-words" name="as_q" placeholder="all these words">
+      </div>
+      <div class="form-group">
+        <label for="exact-phrase">Find pages with...</label>
+        <input type="text" class="form-control" id="exact-phrase" name="as_epq" placeholder="this exact word or phrase">
+      </div>
+      <div class="form-group">
+        <label for="any-words">Find pages with...</label>
+        <input type="text" class="form-control" id="any-words" name="as_oq" placeholder="any of these words">
+      </div>
+      <div class="form-group">
+        <label for="none-words">Find pages with...</label>
+        <input type="text" class="form-control" id="none-words" name="as_eq" placeholder="none of these words">
+      </div>
+      <input type="submit" class="btn btn-primary" value="Advanced Search">
+    </form>
+  </div>
+
+</body>
+</html>
+ 
